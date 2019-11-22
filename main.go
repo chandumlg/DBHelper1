@@ -16,7 +16,7 @@ func main() {
 
 	t1 := time.Now()
 
-	loopCount := 1000
+	loopCount := 100
 
 	for i := 0; i < loopCount; i++ {
 		insertHandler.Insert()
